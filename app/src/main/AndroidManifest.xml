@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shevo.go_joe_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.shevo.go_joe_final.splash_L1" />
+        <activity android:name="com.example.shevo.go_joe_final.mainAct_L1" />
+        <activity android:name="com.example.shevo.go_joe_final.GameOver_L1" />
+        <activity android:name="com.example.shevo.go_joe_final.main_level_2" />
+        <activity android:name="com.example.shevo.go_joe_final.level_2" />
+        <activity android:name="com.example.shevo.go_joe_final.GameOver_L2" />
+        <activity android:name="com.example.shevo.go_joe_final.start_L3" />
+        <activity android:name="com.example.shevo.go_joe_final.Main_L3" />
+        <activity android:name="com.example.shevo.go_joe_final.result_L3" />
+        <activity android:name="com.example.shevo.go_joe_final.start_L4" />
+        <activity android:name="com.example.shevo.go_joe_final.Main_L4" />
+        <activity android:name="com.example.shevo.go_joe_final.result_L4" />
+        <activity android:name=".loginMain" />
+        <activity android:name=".Registration" />
+        <activity android:name=".sendfeedback"></activity>
+        <activity android:name=".exitmain"></activity>
+        <activity android:name=".soundmain"></activity>
+
+    </application>
+
+</manifest>
